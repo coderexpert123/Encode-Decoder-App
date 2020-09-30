@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:padding="25dp"
+    android:layout_height="match_parent"
+    tools:context=".Encoder">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="ENCODER"
+        android:textColor="#082DF6"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Enter Your Text Here"
+        android:textStyle="bold"
+
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+   <EditText
+        android:layout_width="match_parent"
+       android:id="@+id/etenc"
+       android:layout_marginTop="5dp"
+         android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_enc"
+        android:text="Encrypt"
+        android:textColor="#fff"
+        android:onClick="enc"
+        android:background="@color/colorAccent"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Encrypted Text are.."
+
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/enctv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:id="@+id/btncpy"
+        android:onClick="cp2"
+android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:text="Copy"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>

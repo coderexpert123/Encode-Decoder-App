@@ -1,0 +1,2 @@
+rootProject.name='EncoderDecoder'
+include ':app'
