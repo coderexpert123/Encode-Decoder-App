@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="fff"
+
 
     android:padding="27dp"
     android:layout_height="match_parent"
@@ -24,6 +24,11 @@
 
     </TextView>
 
+    <View
+        android:layout_width="match_parent"
+        android:background="#0B0A0B"
+        android:layout_height="3dp"/>
+
 
 
     <LinearLayout
@@ -36,6 +41,7 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:textColor="#0B0A0A"
             android:text="Enter Your Text Here"
             android:textStyle="bold"
             android:layout_height="wrap_content">
@@ -57,8 +63,9 @@
             android:text="Decrypt"
             android:onClick="dec"
             android:textSize="23dp"
-            android:textColor="#fff"
-            android:background="@color/colorAccent"
+            android:textColor="#FF5722"
+
+            android:background="@drawable/btnoutline"
             android:textStyle="bold"
             android:layout_height="wrap_content">
 
@@ -75,6 +82,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#0B0A0A"
             android:text="Your Decrypted Text are.."
 
             android:textStyle="bold">
@@ -85,7 +93,8 @@
         <TextView
             android:id="@+id/dectv"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:background="#F1CECE"
+            android:layout_height="112dp"
             android:textSize="20dp">
 
         </TextView>
@@ -97,11 +106,12 @@
     <Button
         android:layout_width="match_parent"
         android:textSize="25dp"
-        android:textColor="#fff"
+        android:textColor="#E91E63"
         android:id="@+id/btncpy3"
         android:onClick="cp3"
         android:text="Copy"
-        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/outlinebtn2"
         android:layout_height="wrap_content">
 
     </Button>

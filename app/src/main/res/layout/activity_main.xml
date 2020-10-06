@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="ENCODER || DECODER"
-                android:textColor="@color/colorPrimary"
+                android:textColor="#FF5722"
                 android:textSize="27dp"
                 android:textStyle="bold">
 
@@ -45,13 +45,7 @@
             android:orientation="vertical">
 
 
-            <ViewFlipper
-                android:id="@+id/vf"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
 
-            </ViewFlipper>
 
         </LinearLayout>
 
@@ -65,7 +59,7 @@
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:background="@color/colorPrimary">
+                android:background="#FFEB3B">
 
             </View>
 
@@ -85,8 +79,8 @@
                 android:id="@+id/encd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:background="#C51919"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@drawable/mainbtn"
 
                 android:text="Encryption"
                 android:textColor="#fff"
@@ -102,7 +96,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="#FF5722"
+                android:backgroundTint="#4CAF50"
+                android:background="@drawable/mainbtn"
                 android:text="Decryption"
                 android:textColor="#fff"
                 android:textSize="25dp"
@@ -118,10 +113,11 @@
         android:layout_width="match_parent"
         android:layout_height="83dp"
         android:text="Powered By : Nishant Singh "
-        android:textSize="27dp"
+        android:textSize="27sp"
 
 
         android:gravity="center"
+
         android:fontFamily="sans-serif-condensed"
         android:textStyle="bold"
         android:textColor="#fff">
